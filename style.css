@@ -5,6 +5,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
 header {
   display: flex;
   flex-direction: row;
@@ -35,6 +36,98 @@ header {
   margin-left: 12px;
 }
 .section-ouro-preto {
-  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
   background-color: #565453;
+}
+.left-part-section-ouro-preto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./imgs/exame-de-rua-1.jpg");
+  background-color: #cccccc;
+  width: 630px;
+  height: 514px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.title-left-part {
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
+  font-weight: 500;
+  color: #fefefe;
+}
+h1 {
+  font-size: 27px;
+  font-weight: 600;
+  color: #fefefe;
+}
+.subtitle-left-part {
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+  font-weight: 400;
+  color: #fefefe;
+  text-align: center;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 33px;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 18px;
+  color: #13110e;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 14px;
+}
+.right-side-section-ouro-preto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  width: 600px;
+  height: 80px;
+  border: 3px solid #858483;
+  margin-left: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.quadrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #f3c178;
+  border: 2px solid #f7d8aa;
+  margin-left: 6px;
+  margin-right: 12px;
+}
+.numero {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fefefe;
 }
