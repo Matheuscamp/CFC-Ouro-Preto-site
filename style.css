@@ -265,14 +265,14 @@ h6 {
 }
 @media screen and (max-width: 425px) {
   .section-ouro-preto {
-    width: 390px;
+    width: 100vw;
   }
   .two-sides {
     display: flex;
     flex-direction: column;
   }
   .left-part-section-ouro-preto {
-    width: 390px;
+    width: 100vw;
     height: 380px;
   }
   .title-left-part {
