@@ -150,6 +150,7 @@ h3 {
   font-size: 37px;
   font-weight: 600;
   color: #13110e;
+  text-align: center;
 }
 .subtitle-servicos,
 .subtitle-recomendacao {
@@ -242,6 +243,7 @@ h4 {
 .contatos {
   margin-top: 5px;
   margin-bottom: 5px;
+  text-align: center;
 }
 footer {
   display: flex;
@@ -260,4 +262,86 @@ footer {
 h6 {
   font-size: 15px;
   font-weight: 400;
+}
+@media screen and (max-width: 425px) {
+  .section-ouro-preto {
+    width: 425px;
+  }
+  .two-sides {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-part-section-ouro-preto {
+    width: 410px;
+    height: 380px;
+  }
+  .title-left-part {
+    font-size: 19px;
+  }
+  h1 {
+    font-size: 19px;
+  }
+  .subtitle-left-part {
+    font-size: 15px;
+  }
+  .container {
+    width: 400px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  .quadrado {
+    width: 30px;
+    height: 30px;
+  }
+  .numero {
+    font-size: 17px;
+  }
+  .section-servicos {
+    margin-top: 50px;
+  }
+  .subtitle-servicos,
+  .subtitle-recomendacao {
+    width: 300px;
+  }
+  .cards-servicos {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-top: 20px;
+  }
+  .esconder-div {
+    display: none;
+  }
+  .container-depoimentos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  .card-depoimento {
+    width: 418px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .text-depoimento {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .nome-aluno {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .esconder-div {
+    display: none;
+  }
+  .subtitle-contato {
+    width: 300px;
+  }
 }
