@@ -223,8 +223,8 @@ h3 {
   align-items: center;
   justify-content: center;
   background-color: #ececec;
-  margin-top: 90px;
-  height: 350px;
+  margin-top: 50px;
+  height: auto;
 }
 h4 {
   padding: 0;
@@ -265,14 +265,14 @@ h6 {
 }
 @media screen and (max-width: 425px) {
   .section-ouro-preto {
-    width: 390px;
+    width: 375px;
   }
   .two-sides {
     display: flex;
     flex-direction: column;
   }
   .left-part-section-ouro-preto {
-    width: 390px;
+    width: 375px;
     height: 380px;
   }
   .title-left-part {
